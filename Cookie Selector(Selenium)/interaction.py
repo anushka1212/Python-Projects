@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-chrome_driver_path = "C:/Users/anush/chromedriver_win32/chromedriver.exe"
+chrome_driver_path = "PATH"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 driver.get("https://orteil.dashnet.org/cookieclicker/")
